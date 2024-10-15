@@ -19,7 +19,18 @@ Available commands are:
 
 /${CMD.HELP} - display this text. 
 /${CMD.SETTINGS} - configure this bot. 
-/${CMD.START} - start the bot.`,
+/${CMD.START} - start the bot. 
+/${CMD.SERVICE_CREATE} - create a new service (Vendor only). 
+/${CMD.SERVICE_READ} - view details of a service. 
+/${CMD.SERVICE_UPDATE} - update an existing service (Vendor only). 
+/${CMD.SERVICE_DELETE} - delete a service (Vendor only). 
+/${CMD.SERVICE_LIST} - list all available services. 
+/${CMD.VISIT_SERVICE} - register for a service (Client only). 
+/${CMD.VISIT_LIST} - view your visit history (Client only). 
+/${CMD.VISIT_QUEUE} - view visit requests (Vendor only). 
+/${CMD.VISIT_APPROVE} - approve a client's visit (Vendor only). 
+/${CMD.VISIT_DECLINE} - decline a client's visit (Vendor only). 
+/${CMD.VISIT_DELETE} - cancel your visit (Client only).`,
                 {parse_mode: 'HTML',}
             );
         };
