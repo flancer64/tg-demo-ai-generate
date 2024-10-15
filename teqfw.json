@@ -1,12 +1,12 @@
 {
   "@teqfw/di": {
     "autoload": {
-      "ns": "Ns_App",
+      "ns": "CodeGen",
       "path": "./src"
     },
     "replaces": {
       "Telegram_Bot_Back_Api_Setup": {
-        "back": "Ns_App_Back_Bot_Setup"
+        "back": "CodeGen_Back_Bot_Setup"
       }
     }
   }
